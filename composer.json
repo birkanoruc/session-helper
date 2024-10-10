@@ -1,0 +1,24 @@
+{
+    "name": "birkanoruc/session-helper",
+    "description": "A PHP helper class for managing sessions with features like flash data, session destruction, and more.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Birkanoruc\\SessionHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Birkan Oruç",
+            "email": "birkanoruc@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
